@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <script src="script.js"></script>
+    <h2 id="header">To-Do List</h2>
+
+    <button id="addbtn" onclick="add()">+</button>
+    <div id="add">
+        <div id="addhead">
+            <h3>Add To-Do List</h3>
+        </div>
+        <div id="add2">
+        <p>To-Do</p>
+        <input type="text" id="ip1" placeholder="          Enter the title " required>
+        <br>
+        <p>Description (or) Message</p>
+        <input type="text" id="ip2" placeholder="          Enter the content" required>
+        </div>
+            <button id="addbtn2" onclick="input()" type="submit">add</button>
+            <button id="closebtn" onclick="closeBox()">close</button>
+    </div>
+    <div id="edit">
+        <div id="addhead">
+            <h3>Edit To-Do List</h3>
+        </div>
+        <div id="add2">
+        <p>To-Do</p>
+        <input type="text" id="edip1" placeholder="          Enter the title  " required>
+        <br>
+        <p>Description (or) Message</p>
+        <input type="text" id="edip2" placeholder="          Enter the content" required>
+        </div>
+            <button id="editbtn2" onclick="edt()" type="submit">edit</button>
+            <button id="closebtn" onclick="closeBox()">close</button>
+    </div>
+
+</body>
+</html>
